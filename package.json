@@ -1,0 +1,34 @@
+{
+  "name": "test-framework-evaluation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ava": "^0.23.0",
+    "browserify": "^14.5.0",
+    "coverify": "^1.5.0",
+    "jasmine": "^2.8.0",
+    "jasmine-core": "^2.8.0",
+    "karma": "^1.7.1",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-rollup-plugin": "^0.2.4",
+    "mocha": "^4.0.1",
+    "nyc": "^11.3.0",
+    "rollup": "^0.50.0",
+    "rollup-plugin-commonjs": "^8.2.6",
+    "rollup-plugin-json": "^2.3.0",
+    "rollup-plugin-node-builtins": "^2.1.2",
+    "rollup-plugin-node-globals": "^1.1.0",
+    "rollup-plugin-node-resolve": "^3.0.0",
+    "tap": "^10.7.2",
+    "testling": "^1.7.1"
+  },
+  "devDependencies": {
+    "karma-jasmine": "^1.1.0"
+  }
+}
