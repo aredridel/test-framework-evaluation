@@ -116,3 +116,15 @@ Browser test
 ```
 rollup -c --input test-jasmine.js --output test-jasmine.browser.js && karma start --single-run --browsers ChromeCanaryHeadless
 ```
+
+# Conclusions
+
+Given this, I'd lean to `tap` and `tape`, or `jasmine`
+
+Jasmine is pretty cohesive, and supports browser testing well.
+
+Karma as a test runner is a clear winner; `testling` works with `tap` and `tape` but is a bit hacky.
+
+Rollup makes a lot of things work well.
+
+Enzyme was a non-starter due to being react-focused. Ava's lack of browser support is a no-go.
